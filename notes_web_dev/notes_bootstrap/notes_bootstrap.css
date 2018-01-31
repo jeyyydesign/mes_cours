@@ -1,0 +1,39 @@
+h1
+{
+    font-family: 'Gloria Hallelujah', cursive;
+    text-decoration: underline;
+    padding-left: 600px;
+    font-size: 35px;
+}
+
+h2
+{
+    font-family: 'Gloria Hallelujah', cursive;
+    padding-left: 120px;
+    text-decoration: underline;
+    color: black;
+    font-size: 25px;
+}
+
+h3
+{
+    font-family: 'Gloria Hallelujah', cursive;
+    padding-left: 120px;
+    text-decoration: underline;
+    color: black;
+    font-size: 25px;
+}
+
+ul
+{
+    font-family:courier;
+    color: gray;
+    padding-left: 70px;
+}
+
+p
+{
+    font-family: 'Sacramento', cursive;
+    font-size: 35px;
+    padding-left: 70px;
+}

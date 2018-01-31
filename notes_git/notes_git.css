@@ -1,0 +1,47 @@
+h1
+{
+    font-family: 'Gloria Hallelujah', cursive;
+    text-decoration: underline;
+    padding-left: 350px;
+    font-size: 35px;
+        
+    
+}
+h2,h3
+{
+    font-family: 'Gloria Hallelujah', cursive;
+    padding-left: 120px;
+    text-decoration: underline;
+    color: black;
+    font-size: 25px;
+    
+        
+}
+h4
+{
+     font-family: 'Gloria Hallelujah', cursive;
+    padding-left: 350px;
+    text-decoration: underline;
+    color: black;
+    font-size: 25px;
+    
+}
+.section1
+{
+    padding-left: 95px;
+    position: absolute;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 19px;
+}
+.section2
+{
+    padding-left: 500px;
+   
+   
+}
+ul
+{
+    font-family:courier;
+    color: gray;
+    padding-left: 70px;
+}

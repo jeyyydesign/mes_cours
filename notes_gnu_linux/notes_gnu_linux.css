@@ -1,0 +1,65 @@
+p
+{
+    font-family: 'Sacramento', cursive;
+    font-size: 35px;
+    padding-left: 70px;
+
+}
+
+ul
+{
+    font-family:courier;
+    color: gray;
+    padding-left: 70px; 
+}
+h1
+{
+    font-family: 'Gloria Hallelujah', cursive;
+    text-decoration: underline;
+    padding-left: 350px;
+    font-size: 35px; 
+    color: red;
+}
+h2
+{
+    font-family: 'Gloria Hallelujah', cursive;
+    padding-left: 120px;
+    text-decoration: underline;
+    color: black;
+    font-size: 25px;
+    color: orange;
+}
+h3
+{
+    font-family: 'Gloria Hallelujah', cursive;
+    padding-left: 120px;
+    text-decoration: underline;
+    color: black;
+    font-size: 25px;
+    color: orange;
+}
+h4
+{
+    font-family: 'Gloria Hallelujah', cursive;
+    text-decoration: underline;
+    padding-left: 350px;
+    font-size: 35px; 
+    color: red;
+}
+h5
+{
+    font-family: 'Gloria Hallelujah', cursive;
+    padding-left: 120px;
+    text-decoration: underline;
+    color: black;
+    font-size: 40px; 
+    color: orange;
+}
+h6
+{
+    font-family: 'Gloria Hallelujah', cursive;
+    text-decoration: underline;
+    padding-left: 350px;
+    font-size: 35px; 
+    color: red;
+}

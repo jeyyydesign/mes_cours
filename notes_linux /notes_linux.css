@@ -1,0 +1,79 @@
+
+h1
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    font-size: 34px;
+    font-family: sans-serif;
+}
+
+h3,h4,h6
+{
+    padding-left: 60px;
+    font-size: 20px;
+    font-family:sans-serif;
+    color: red;
+}
+
+h2,h5
+{
+    padding-left: 200px;
+    font-size: 25px;
+    font-family:sans-serif;
+    text-decoration: underline;
+}
+
+h7,h8
+{
+    padding-left: 60px;
+    font-size: 20px;
+    font-family:sans-serif;
+    color: red;
+}
+h9
+{
+    
+    padding-left: 60px;
+    font-size: 25px;
+    font-family:sans-serif;
+    text-decoration: underline;
+    
+    
+    
+}
+h10
+{
+    padding-bottom: 30px;
+    padding-left: 10px;
+    font-size: 20px;
+    font-family:sans-serif;
+    color: red;
+    
+}
+h11
+{
+   
+    padding-left: 60px;
+    font-size: 20px;
+    font-family:sans-serif;
+    color: red; 
+}
+ul
+{
+    padding-left: 100px;
+    color:gray;
+    font-family: courier;
+    
+}
+
+
+section
+{
+    padding-left: 100px;
+    color:gray;
+    font-family: sans-serif;
+    
+   
+}
+

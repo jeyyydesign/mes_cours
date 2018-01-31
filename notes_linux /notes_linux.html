@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+     <title>Notes linux</title>
+        <link rel="stylesheet" href="notes_linux.css">
+        
+    </head>
+    <body>
+        <h1>Notes linux : Gestions des fichiers et des dossiers</h1>
+        
+        <h2>L'éditeur de texte nano</h2> 
+     
+        <p>Un éditeur de texte est un programme qui permet de modifier des fichiers de texte, sans prendre en charge la. Sous Windows, l'éditeur de texte le plus simple : le Bloc-Notes.
+        Sous Linux, peut utiliser Nano, Vim, Emacs et d'autres.
+        Un traitement de texte est fait pour rédiger des documents et mettre en forme le texte qui s'y trouve. Sous Windows, on a Word qui le logiciel de traitement de texte le plus utilisé et sous Linux, on possède : Open Office Writer. Pas de mode console pour ces logiciels.         
+        </p>
+        </section>
+    
+    
+        <h3>Les raccourcis clavier Nano :</h3>
+        
+        <ul>
+            <li>Ctrl + G : affichage de l'aide</li>
+            <li>Ctrl + K : couperlaligne</li>
+            <li>Ctrl + U : coller la ligne qui se trouve dans le presse -papier</li>
+            <li>Ctrl + C : affichage du numéro de la ligne où on se trouve</li>
+            <li>Ctrl + W : rechercher du texte dans le fichier</li>
+            <li>Ctrl + O : enregistrer le fichier</li>
+            <li>Ctrl + X : quitter l'éditeur Nano</li>
+            <li>Ctrl + Y : Se déplacer d'une page vers le haut</li>
+            <li>Ctrl + U : Se déplacer d'une page vers le bas</li>
+       
+       </ul> 
+       
+        <h4>Les options Nano :</h4>
+        <ul> 
+            <li>m : utilisation de la souris autorisée</li>
+            <li>i : indentation automatique (respect des tabulations précédentes)</li>
+            
+        </ul>
+       
+        <h5>L'editeur de texte Vi</h5>
+        <section>
+            <p>
+                Il s'agit d'un des éditeurs de texte les plus puissants existants. En effet, vi implémente un grand nombre de fonctionnalités qui ne sont pas disponibles dans certains autres éditeurs simples (comme nano).
+                Le gros avantage de cet éditeur, c'est qu'il est présent sur quasiment toutes les versions de Linux, y compris sur ce que l'on appelle les microcore (les versions très allégées de Linux).
+            </p>
+        </section>
+        <h6>Les commandes et la navigation vi :</h6>
+        <ul>
+            <li>h : à gauche d'un caractère</li>
+            <li>j : en haut d'un caractère</li>
+            <li>k : en bas d'un caractère</li>
+            <li>l : à droite d'un caractère</li>
+            <li>w : à droite d'un mot</li>
+            <li>b : à gauche d'un mot</li>
+            <li>^ : aller au début de la ligne</li>
+            <li>$:alleràlafindelaligne</li>
+            
+        </ul>
+        <h7>L'insertion et la modification dans vi :</h7>
+         <ul>
+            <li>I : Insertion au début de la ligne</li>
+            <li>i insertion au niveau du curseur</li>
+            <li>a insère après la position actuelle du curseur</li>
+            <li>A:insèreàlafindelaligne</li>
+            <li>x : supprimer le caractère</li>
+            <li>dw : supprimer le mot</li>
+            <li>dd supprimer la ligne</li>
+            <li>D : supprimer depuis la position actuelle</li>
+            <li>r : remplace le caractère</li>
+            <li>cw : modification du mot actuel</li>   
+            <li>cc : modification de la ligne actuelle</li>
+            <li>C : modification de la ligne à partir du curseur (équivalent à c$)</li>
+            <li>~ : modifier les majuscules en minuscules et inversement</li>
+            <li>yy : copie la ligne actuelle</li>
+            <li>p : colle l'élément qui était danslepresse-papier</li>
+            <li>u : undo</li>
+            <li>Ctrl+R:redo</li>
+            
+        </ul>
+        
+        <h8>Les commandes :</h8>
+        
+        <ul>
+            <li>:w = Sauvegarder le fichier</li>
+             <li>:w! = Forcer le fichier à être sauvegardé</li>
+             <li>:q = Quitter le fichier</li>
+             <li>:q! = Quitter le fichier sans sauvegarder</li>
+             <li>:wq! = Sauvegarder et quitter</li>
+             <li>:x = équivalent à :wq</li>
+             <li>:12 = positionne le curseur à la ligne 12</li>
+             <li>:$ = positionne le curseur à la dernière ligne</li>
+             <li>:set nu = affiche le numéro des lignes</li>
+             <li>:set nonu = désactive l'affichage du numéro des lignes</li>
+               
+        </ul>
+        
+        <h9>Manipulation et recherche de fichier sur linux + les droit d'axer au fichers</h9>
+        
+        <ul>
+            <h10>Commandes et raccourci :</h10>
+            
+             
+            
+            <li>control + G = afficher l'aide avec tout les raccourci existant</li>
+            <li>touch = crée un fichier</li>
+            <li>ls -l = j'obtient que le fichier a etait crée</li>
+            <li>Rm = supprimer un fichier ( Rm + nom du fichier )</li>
+            <li>mkdir = crée un dossier ( mkdir + nom du dossier )</li>
+            <li>cd = "change direction" je navigue dans les dossiers </li>
+            <li>cd... = revenir au dossiers parent</li>
+            <li>rmkdir = supprimer un dossier ( rmkdir + nom du dossier )</li>
+            <li>rm -rf = supprimmer un dossier avec se qu'il contient ATTENTION !!!!!! mal executer elle suprime l'ensemble des fichiers et des dossiers du système</li>
+            <li>mv = déplacer un ficher</li>
+            <li>i = insérer un texte</li>
+            <li>:vq! = echap </li>
+            <li>diff = comparer deux fichiers</li>
+            <li>locate = localiser un fichier</li>
+            <li>find = chercher un élément </li>
+            <li>find -nom = chercher un élément dont le nom est : ( find -nom + nom de l'élément</li>
+            <li>I = combinaison de plusieur commande</li>
+            <li>d = repertoir</li>
+            <li>l = liens simbolyque</li>
+            <li>r = lire</li>
+            <li>w = ecrire</li>
+            <li>x = executer / traverser</li>
+            <li>Propriétaire = rwx</li>
+            <li>Groupe = -xr</li>
+            <li>Autres = -xr</li>
+            <li>chmod 777 = rwx/Rwx/Rwx</li>
+            <li>u = utilisateur</li>
+            <li>g = groupe</li>
+            <li>o = autres</li>
+            <li>chmod o + w = ajoute le droit d'ecricre aux autres</li>
+            <li>chmo o - w = retire le droit d'écrire aux autres </li>
+            <li>chmod g + x = ajoute le droit d'execution aux menmbres du groupes</li>
+            <li>chmod og -r = retire le droit de lire aus autres et aux membres du groupes</li>
+            <li>chmod o + w = ajoute le droit d'écrire aux autres </li>
+            <li>chmod -R g-w = retire le droit d'écrire aux membres du groupes et a tous les dossiers et ficiers appartenant a la cible</li>
+        </ul>
+        
+        <h11>Maitriser les directions SHELL</h11>
+        
+        <ul>
+            
+            <li> > = Redirige sorti standard</li>
+            <li> >> = Redirige la sorti standard a la fin du fichier</li>
+       
+        
+        </ul>
+        
+        
+        
+        
+        
+      
+        
+          
+            
+        
+        
+    
+    </body>
